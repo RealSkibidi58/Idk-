@@ -39,7 +39,7 @@ async def verify(ctx):
 
     try:
         global_name = member.global_name or member.name
-        new_name = f"𝕾𝖓𝖒•{global_name}"
+        new_name = f"⁵⁵⁵⁵•{global_name}"
         await member.edit(nick=new_name)
         await member.add_roles(role)
 
@@ -49,7 +49,7 @@ async def verify(ctx):
             color=discord.Color.green()
         )
         embed.add_field(name="Assigned Role", value=role.name, inline=True)
-        embed.set_footer(text="Verification System • Snm")
+        embed.set_footer(text="Verification System • ⁵⁵⁵⁵")
 
         await ctx.send(embed=embed, allowed_mentions=discord.AllowedMentions.none())
 
